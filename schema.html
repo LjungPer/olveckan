@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schema</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <button class="nav-button" onclick="navigateTo('index.html')">Hem</button>
+        <button class="nav-button" onclick="navigateTo('schema.html')">Schema</button>
+        <button class="nav-button" onclick="navigateTo('minnen.html')">Minnen</button>
+        <button class="nav-button" onclick="navigateTo('events.html')">Events</button>
+    </div>
+    <div class="container">
+        <div class="year-buttons">
+            <button class="year-button" onclick="showImage('schema_2024')">2024</button>
+            <button class="year-button" onclick="showImage('schema_2023')">2023</button>
+            <button class="year-button" onclick="showImage('schema_2022')">2022</button>
+        </div>
+        <img id="schema-image" src="schema_2024.jpg" alt="Schema Image" class="responsive-image">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
