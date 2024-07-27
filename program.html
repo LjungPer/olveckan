@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hem</title>
+    <title>Program</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -18,16 +18,26 @@
         </div>
         <div class="nav-buttons">
             <button class="nav-button" onclick="navigateTo('program.html')">Program</button>
+            <button class="nav-button" onclick="navigateTo('minnen.html')">Minnen</button>
             <button class="nav-button" onclick="navigateTo('merch.html')">Shop</button>
         </div>
     </div>
-    <div class="logo-container">
-        <span class="left-text">Ljus lager.</span>
-        <img src="logo.jpg" alt="Logo" class="logo">
-        <span class="right-text">Ljus framtid.</span>
+    <div class="content-container">
+        <img src="schema_2024.jpg" alt="Schema 2024" class="responsive-image">
     </div>
-    <div class="posts-container" id="posts-container">
-        <!-- Posts will be inserted here by JavaScript -->
+    <div class="row-container">
+        <div class="column">
+            <h3>Program 2023</h3>
+            <img src="schema_2023.jpg" alt="Schema 2023" class="thumbnail-image">
+        </div>
+        <div class="column">
+            <h3>Program 2022</h3>
+            <img src="schema_2022.jpg" alt="Schema 2022" class="thumbnail-image">
+        </div>
+        <div class="column">
+        </div>
+        <div class="column">
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

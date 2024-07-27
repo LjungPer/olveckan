@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo-section">
+            <img src="logo.jpg" alt="Logo" class="navbar-logo" onclick="navigateTo('index.html')" style="cursor: pointer;">
+            <div class="navbar-text">
+                <span>Ljus lager.</span><br>
+                <span>Ljus framtid.</span>
+            </div>
+        </div>
+        <div class="nav-buttons">
+            <button class="nav-button" onclick="navigateTo('program.html')">Program</button>
+            <button class="nav-button" onclick="navigateTo('minnen.html')">Minnen</button>
+            <button class="nav-button" onclick="navigateTo('merch.html')">Shop</button>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="shop-navigation">
+            <button class="shop-button" onclick="scrollToSection('tshirts')">T-shirts</button>
+            <button class="shop-button" onclick="scrollToSection('stickers')">Stickers</button>
+            <button class="shop-button" onclick="scrollToSection('coasters')">Coasters</button>
+        </div>
+        <div id="tshirts" class="shop-section">
+            <h2>T-shirts</h2>
+            <div class="product-grid">
+                <div class="item">
+                    <h3>Shirt 2024</h3>
+                    <div class="image-container">
+                        <img src="shirt_2024.png" alt="Shirt 2024" class="product-image">
+                    </div>
+                    <p class="out-of-stock">Out of stock</p>
+                </div>
+                <div class="item">
+                    <h3>Shirt 2023</h3>
+                    <div class="image-container">
+                        <img src="shirt_2023.png" alt="Shirt 2023" class="product-image">
+                    </div>
+                    <p class="out-of-stock">Out of stock</p>
+                </div>
+                <div class="item">
+                    <h3>Shirt 2022</h3>
+                    <div class="image-container">
+                        <img src="shirt_2022.png" alt="Shirt 2022" class="product-image">
+                    </div>
+                    <p class="out-of-stock">Out of stock</p>
+                </div>
+            </div>
+        </div>
+        <div id="stickers" class="shop-section">
+            <h2>Stickers</h2>
+            <div class="product-grid">
+                <div class="item">
+                    <h3>Sticker 2024</h3>
+                    <div class="image-container">
+                        <img src="sticker_2024.jpg" alt="Sticker 2024" class="product-image">
+                    </div>
+                    <p class="out-of-stock">Out of stock</p>
+                </div>
+                <div class="item">
+                    <h3>Sticker 2023</h3>
+                    <div class="image-container">
+                        <img src="sticker_2022a.png" alt="Sticker 2023" class="product-image">
+                    </div>
+                    <p class="out-of-stock">Out of stock</p>
+                </div>
+                <div class="item">
+                    <h3>Sticker 2022</h3>
+                    <div class="image-container">
+                        <img src="sticker_2022b.png" alt="Sticker 2022" class="product-image">
+                    </div>
+                    <p class="out-of-stock">Out of stock</p>
+                </div>
+            </div>
+        </div>
+        <div id="coasters" class="shop-section">
+            <h2>Coasters</h2>
+            <div class="product-grid">
+                <div class="item">
+                    <h3>Coaster 2024</h3>
+                    <div class="image-container">
+                        <img src="coaster_2024.jpg" alt="Coaster 2024" class="product-image">
+                    </div>
+                    <p class="out-of-stock">Out of stock</p>
+                </div>
+                <div class="item">
+                    <h3>Coaster 2023</h3>
+                    <div class="image-container">
+                        <img src="coaster_2022a.png" alt="Coaster 2023" class="product-image">
+                    </div>
+                    <p class="out-of-stock">Out of stock</p>
+                </div>
+                <div class="item">
+                    <h3>Coaster 2022</h3>
+                    <div class="image-container">
+                        <img src="coaster_2022b.png" alt="Coaster 2022" class="product-image">
+                    </div>
+                    <p class="out-of-stock">Out of stock</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
